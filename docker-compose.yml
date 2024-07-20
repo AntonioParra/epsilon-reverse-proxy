@@ -7,8 +7,6 @@ services:
       dockerfile: Dockerfile-external
     networks:
       - epsilon-network
-    ports: 
-      - "20001:80"
   rp-internal:
     container_name: epsilon-rp-internal
     build:
